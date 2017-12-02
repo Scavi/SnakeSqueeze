@@ -40,8 +40,5 @@ print(str(res1))
 
 
 # Question 2
-test = ["5\t9\t2\t8", "9\t4\t7\t3", "3\t8\t6\t5"]
-
-r = solve_b(test)
 res2 = solve_b(puzzle_input)
 print(str(res2))
