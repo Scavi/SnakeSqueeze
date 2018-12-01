@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ed6568-c5b2-40ff-8865-0a5d4abd7eac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py" afterPath="$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Input/2018/Day1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2017/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2018/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" afterPath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AOC/Input/Day2.txt" afterPath="$PROJECT_DIR$/Input/2017/Day2.txt" />
+      <change beforePath="$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Util/FileHelper.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,20 +25,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Day1InverseCaptcha.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day2CorruptionChecksum.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py">
+      <file leaf-file-name="test_day1_inverse_captacha.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="1026">
+              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day2CorruptionChecksum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -35,22 +58,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pathlib.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/pathlib.py">
+      <file leaf-file-name="test_day2_corruption_checksum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/2017/Day2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileHelper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Util/FileHelper.py">
+      <file leaf-file-name="Day1ChronalCalibration.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Y2018/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_day1_chronical_calibration.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding />
+              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,15 +134,23 @@
         <option value="$PROJECT_DIR$/Util/FileHelper.py" />
         <option value="$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py" />
         <option value="$PROJECT_DIR$/AOC/Y2017/__init__.py" />
+        <option value="$PROJECT_DIR$/CF/Arcade/Core/Test.py" />
         <option value="$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py" />
+        <option value="$PROJECT_DIR$/Input/2018/Day1.txt" />
+        <option value="$PROJECT_DIR$/AOC/Y2018/Day1ChronalCalibration.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py" />
+        <option value="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py" />
+        <option value="$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2538" />
-    <option name="y" value="126" />
-    <option name="width" value="1380" />
-    <option name="height" value="1200" />
+    <option name="x" value="1987" />
+    <option name="width" value="3373" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,52 +180,62 @@
             <path>
               <item name="SnakeSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="SnakeSqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="AOC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SnakeSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="SnakeSqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="AOC" type="462c0819:PsiDirectoryNode" />
-              <item name="Input" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="snake_squeeze" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SnakeSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="SnakeSqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="AOC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="snake_squeeze" type="462c0819:PsiDirectoryNode" />
               <item name="Y2017" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SnakeSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="SnakeSqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="snake_squeeze" type="462c0819:PsiDirectoryNode" />
+              <item name="Y2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SnakeSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SnakeSqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SnakeSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (SnakeSqueeze) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="SnakeSqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Y2017" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SnakeSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (SnakeSqueeze) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="SnakeSqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Y2018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RpgCrawler" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/snake_squeeze" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/AOC/y2017" />
+      <recent name="$PROJECT_DIR$/AOC/src" />
+      <recent name="$PROJECT_DIR$/AOC/src/snake_squeeze" />
+      <recent name="$PROJECT_DIR$/Input/2017" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,56 +250,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day2CorruptionChecksum">
-    <configuration name="Day1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_day2_corruption_checksum.py">
+    <configuration name="Day1ChronalCalibration (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC/2017" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/snake_squeeze/Y2018" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SnakeSqueeze" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC/y2017/Day1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Day1InverseCaptcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day1ChronalCalibration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC/Y2017" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC/Y2018" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SnakeSqueeze" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Day2CorruptionChecksum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC/Y2017" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SnakeSqueeze" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC/Y2018/Day1ChronalCalibration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,16 +367,62 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.Day1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Day2CorruptionChecksum" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Day1InverseCaptcha" />
+    <configuration name="Unittests in test_day1_chronical_calibration.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Y2018" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SnakeSqueeze" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_day1_inverse_captacha.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Y2017" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SnakeSqueeze" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_day2_corruption_checksum.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Y2017" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SnakeSqueeze" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Day1ChronalCalibration" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Day1ChronalCalibration (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_chronical_calibration.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_inverse_captacha.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_day2_corruption_checksum.py" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.Day2CorruptionChecksum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Day1InverseCaptcha" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Day1" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_day2_corruption_checksum.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_inverse_captacha.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_chronical_calibration.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Day1ChronalCalibration (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Day1ChronalCalibration" />
       </list>
     </recent_temporary>
   </component>
@@ -337,20 +442,40 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 14h 51m 31s.xml">
+      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 14h 51m 32s.xml">
+      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 14h 56m 32s.xml">
+      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day1_inverse_captacha_py - 2018.12.01 at 14h 56m 35s.xml">
+      <configuration name="Unittests in test_day1_inverse_captacha.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day2_corruption_checksum_py - 2018.12.01 at 14h 59m 06s.xml">
+      <configuration name="Unittests in test_day2_corruption_checksum.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day2_corruption_checksum_py - 2018.12.01 at 14h 59m 58s.xml">
+      <configuration name="Unittests in test_day2_corruption_checksum.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="2538" y="126" width="3373" height="1442" extended-state="6" />
+    <frame x="1987" y="-2" width="3373" height="1442" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10228284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21494219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27061468" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27061468" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.488006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955023" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,31 +490,238 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CF/Arcade/Core/Test.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CF/Arcade/Core/Test.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>(max_value % min_value)</expression-string>
+        <expression-string>6 &gt;= score2 &lt;= 7</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(min_value % max_value)</expression-string>
+        <expression-string>6 &gt;= score1 &lt;= 7</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>int(token)</expression-string>
+        <expression-string>6 &gt;= score1 &gt;= 7</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>abs(score1 - score2) &gt;= 2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>score1 - score2 &gt;= 2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a // b</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map(int, str(n // 60 * 100 + n % 60))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str(n // 60 * 100 + n % 60)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n // 60 * 100 + n % 60</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17352">
+          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17586">
+          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17352">
+          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17352">
+          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -397,7 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -405,7 +737,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/2017/__init__.py">
+    <entry file="file://$PROJECT_DIR$/AOC/2017/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/AOC/Util/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/AOC/y2017/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/AOC/Y2017/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/__init__.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2017/Day2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3053">
+          <caret line="956" column="7" lean-forward="false" selection-start-line="956" selection-start-column="7" selection-end-line="956" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -421,7 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/Util/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -429,7 +813,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/y2017/__init__.py">
+    <entry file="file://$PROJECT_DIR$/test/Y2018/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -437,50 +821,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/Input/Day2.txt">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/pathlib.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/Y2017/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="630">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Util/FileHelper.py">
+    <entry file="file://$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py">
+    <entry file="file://$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
