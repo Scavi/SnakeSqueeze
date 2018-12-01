@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ed6568-c5b2-40ff-8865-0a5d4abd7eac" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Input/2018/Day1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2017/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2018/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" afterPath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AOC/Input/Day2.txt" afterPath="$PROJECT_DIR$/Input/2017/Day2.txt" />
-      <change beforePath="$PROJECT_DIR$/AOC/Y2017/Day1InverseCaptcha.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Util/FileHelper.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_day2_corruption_checksum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_day2_corruption_checksum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -80,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day1ChronalCalibration.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Day1ChronalCalibration.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="702">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,18 +85,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_day1_chronical_calibration.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,12 +115,12 @@
         <option value="$PROJECT_DIR$/AOC/Y2017/Day2CorruptionChecksum.py" />
         <option value="$PROJECT_DIR$/Input/2018/Day1.txt" />
         <option value="$PROJECT_DIR$/AOC/Y2018/Day1ChronalCalibration.py" />
-        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py" />
         <option value="$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py" />
         <option value="$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py" />
         <option value="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" />
         <option value="$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py" />
         <option value="$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py" />
       </list>
     </option>
   </component>
@@ -250,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_day2_corruption_checksum.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_day1_chronical_calibration.py">
     <configuration name="Day1ChronalCalibration (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -418,9 +395,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_day2_corruption_checksum.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_inverse_captacha.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_chronical_calibration.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_chronical_calibration.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_day2_corruption_checksum.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_day1_inverse_captacha.py" />
         <item index="3" class="java.lang.String" itemvalue="Python.Day1ChronalCalibration (1)" />
         <item index="4" class="java.lang.String" itemvalue="Python.Day1ChronalCalibration" />
       </list>
@@ -443,13 +420,22 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 14h 51m 31s.xml">
-      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 14h 51m 32s.xml">
       <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 14h 56m 32s.xml">
+      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 15h 02m 18s.xml">
+      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 15h 02m 37s.xml">
+      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 15h 02m 50s.xml">
+      <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_day1_chronical_calibration_py - 2018.12.01 at 15h 04m 09s.xml">
       <configuration name="Unittests in test_day1_chronical_calibration.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_day1_inverse_captacha_py - 2018.12.01 at 14h 56m 35s.xml">
@@ -461,6 +447,9 @@
     <history-entry file="Unittests_in_test_day2_corruption_checksum_py - 2018.12.01 at 14h 59m 58s.xml">
       <configuration name="Unittests in test_day2_corruption_checksum.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_day2_corruption_checksum_py - 2018.12.01 at 15h 02m 09s.xml">
+      <configuration name="Unittests in test_day2_corruption_checksum.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="-2" width="3373" height="1442" extended-state="6" />
@@ -469,7 +458,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21494219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27061468" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27061468" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -503,7 +492,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py</url>
-          <line>3</line>
+          <line>10</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
@@ -813,22 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Y2018/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -857,6 +830,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -867,13 +850,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py">
+    <entry file="file://$PROJECT_DIR$/test/Y2018/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
