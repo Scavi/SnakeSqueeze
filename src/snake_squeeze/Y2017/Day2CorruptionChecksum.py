@@ -1,8 +1,3 @@
-from pathlib import Path
-
-from snake_squeeze.Util.FileHelper import FileHelper
-
-
 class Day2CorruptionChecksum:
     @staticmethod
     def solve_a(file_lines):
@@ -18,7 +13,6 @@ class Day2CorruptionChecksum:
 
             result += max_value - min_value
         return result
-
 
     @staticmethod
     def solve_b(file_lines):

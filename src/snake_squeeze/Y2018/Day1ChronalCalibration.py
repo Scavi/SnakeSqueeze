@@ -13,7 +13,6 @@ class Day1ChronalCalibration:
             frequency += int(line)
         return frequency
 
-
     @staticmethod
     def solve2(input_lines):
         """
@@ -26,13 +25,13 @@ class Day1ChronalCalibration:
             int: The first repeating frequency
         """
         frequency = 0
-        repeat_value = None
+        found_result = False
         cache = set()
-        while repeat_value is None:
+        while not found_result:
             for line in input_lines:
                 frequency += int(line)
                 if frequency in cache:
-                    repeat_value = frequency
+                    found_result = True
                     break
                 else:
                     cache.add(frequency)
