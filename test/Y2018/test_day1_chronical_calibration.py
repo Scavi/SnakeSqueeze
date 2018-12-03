@@ -11,7 +11,6 @@ class TestDay1ChronalCalibration(TestCase):
         chronal_calibration = Day1ChronalCalibration()
         self.assertEquals(454, chronal_calibration.solve1(puzzle_input))
 
-
     def test_part_2(self):
         puzzle_input = FileHelper.read_file(Path("../../Input/2018/Day1.txt"))
         chronal_calibration = Day1ChronalCalibration()
