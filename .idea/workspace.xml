@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ed6568-c5b2-40ff-8865-0a5d4abd7eac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Input/2018/Day2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input/2018/Day3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Y2018/test_day2_inventory_management_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Y2018/test_day1_chronical_calibration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +22,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
-          <entry key="py" value="4471" />
+          <entry key="py" value="5748" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="Python" value="4471" />
+          <entry key="Python" value="5748" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -117,34 +106,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="-546">
+              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
               <folding>
-                <marker date="1543877579000" expanded="true" signature="84:130" ph="..." />
-                <marker date="1543877579000" expanded="true" signature="155:242" ph="..." />
-                <marker date="1543877579000" expanded="true" signature="267:360" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <marker date="1543789817000" expanded="true" signature="55:56" ph="..." />
+                <marker date="1543878534000" expanded="true" signature="185:231" ph="..." />
+                <marker date="1543878534000" expanded="true" signature="425:512" ph="..." />
+                <marker date="1543878534000" expanded="true" signature="537:799" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="40" column="92" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
+              <folding>
+                <marker date="1543879053000" expanded="true" signature="55:56" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="189">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
                 <marker date="1543877616000" expanded="true" signature="241:242" ph="..." />
@@ -206,11 +195,11 @@
         <option value="$PROJECT_DIR$/test/Y2018/test_day2_inventory_management_system.py" />
         <option value="$PROJECT_DIR$/Input/2018/Day3.txt" />
         <option value="$PROJECT_DIR$/test/Y2018/Day3NoMatterHowYouSliceIt.py" />
-        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" />
         <option value="$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py" />
         <option value="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" />
-        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" />
         <option value="$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" />
       </list>
     </option>
   </component>
@@ -550,12 +539,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2149401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2149401" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33614457" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33614457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35180724" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -602,17 +591,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py</url>
-          <line>37</line>
+          <line>57</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py</url>
-          <line>22</line>
+          <line>42</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py</url>
-          <line>13</line>
+          <line>31</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
@@ -785,6 +774,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.4.7/lib/python3.4/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="579" selection-start-line="579" selection-end-line="579" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2018/test_day2_inventory_management_system.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -797,42 +793,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.4.7/lib/python3.4/unittest/case.py">
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="579" selection-start-line="579" selection-end-line="579" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="189">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="27" />
           <folding>
-            <marker date="1543789817000" expanded="true" signature="55:56" ph="..." />
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1543877616000" expanded="true" signature="241:242" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="-546">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
           <folding>
-            <marker date="1543877579000" expanded="true" signature="84:130" ph="..." />
-            <marker date="1543877579000" expanded="true" signature="155:242" ph="..." />
-            <marker date="1543877579000" expanded="true" signature="267:360" ph="..." />
+            <marker date="1543878534000" expanded="true" signature="185:231" ph="..." />
+            <marker date="1543878534000" expanded="true" signature="425:512" ph="..." />
+            <marker date="1543878534000" expanded="true" signature="537:799" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="40" column="92" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1543877616000" expanded="true" signature="241:242" ph="..." />
+            <marker date="1543879053000" expanded="true" signature="55:56" ph="..." />
           </folding>
         </state>
       </provider>

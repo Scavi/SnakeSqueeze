@@ -5,6 +5,16 @@ class Day2InventoryManagementSystem:
 
     @staticmethod
     def solve1(ids):
+        """
+        Determines the number of ids that contain one character at least 2 or 3 times.
+        If multiple characters exists 2 or 3 times, only one pair is count.
+
+        Args:
+            ids (list[str]): The amount of ids
+
+        Returns:
+            int: count_2 * count_3
+        """
         count_2 = 0
         count_3 = 0
         for current_id in ids:
@@ -20,6 +30,16 @@ class Day2InventoryManagementSystem:
 
     @staticmethod
     def solve2(ids):
+        """
+        Find the id that exactly differ by one character and return that id without the different
+        character.
+
+        Args:
+            ids (list[str]): The amount of ids
+
+        Returns:
+            str: The id that exactly differ by one character without the different character
+        """
         matching = None
         for id1, id2 in itertools.combinations(ids, 2):
             has_mismatch = False
