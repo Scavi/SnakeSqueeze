@@ -30,7 +30,6 @@ class TestDay1InverseCaptcha(TestCase):
             "661741238178676857381583155547755219837116125995361896562498721571413742")
         self.assertEquals(1119, result)
 
-
     def test_question_2(self):
         inverse_captcha = Day1InverseCaptcha()
         result = inverse_captcha.solve(

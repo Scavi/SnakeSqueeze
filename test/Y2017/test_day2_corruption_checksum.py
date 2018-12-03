@@ -13,8 +13,7 @@ class TestDay2CorruptionChecksum(TestCase):
         result = corruption_checksum.solve_a(puzzle_input)
         self.assertEquals(42299, result)
 
-
-    def test_1(self):
+    def test_2(self):
         corruption_checksum = Day2CorruptionChecksum()
         puzzle_input = FileHelper.read_file(Path("../../Input/2017/Day2.txt"))
         result = corruption_checksum.solve_b(puzzle_input)
