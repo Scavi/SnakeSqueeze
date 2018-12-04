@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ed6568-c5b2-40ff-8865-0a5d4abd7eac" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Input/2018/Day4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Y2018/test_day4_repose_record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,32 +18,35 @@
     <session id="1461487427">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
-          <entry key="py" value="5748" />
+          <entry key="py" value="8874" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="Python" value="5748" />
+          <entry key="Python" value="8874" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="18" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="26" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="18" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
     </session>
@@ -48,71 +54,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
+        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day4_repose_record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="-100">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
+                <marker date="1543964035000" expanded="true" signature="214:219" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/2018/Day3.txt">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19395">
-              <caret line="1293" lean-forward="true" selection-start-line="1293" selection-end-line="1293" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day2_inventory_management_system.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="22" selection-end-line="23" />
+            <state relative-caret-position="-579">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1543787412000" expanded="true" signature="249:250" ph="..." />
-                <marker date="1543787412000" expanded="true" signature="249:255" ph="..." />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1543964025000" expanded="true" signature="190:195" ph="..." />
+                <marker date="1543964025000" expanded="true" signature="1697:1749" ph="..." />
+                <marker date="1543964025000" expanded="true" signature="2671:2677" ph="..." />
+                <marker date="1543964025000" expanded="true" signature="2721:3117" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
+        <entry file="file://$PROJECT_DIR$/Input/2018/Day4.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-546">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-              <folding>
-                <marker date="1543878534000" expanded="true" signature="185:231" ph="..." />
-                <marker date="1543878534000" expanded="true" signature="425:512" ph="..." />
-                <marker date="1543878534000" expanded="true" signature="537:799" ph="..." />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -120,42 +94,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="40" column="92" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1543879053000" expanded="true" signature="55:56" ph="..." />
+                <marker date="1543947622000" expanded="true" signature="55:56" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1543877616000" expanded="true" signature="241:242" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.pyenv/versions/3.4.7/lib/python3.4/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="579" selection-start-line="579" selection-end-line="579" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -168,6 +111,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_</find>
+      <find>work_overview</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -199,11 +148,14 @@
         <option value="$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py" />
         <option value="$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py" />
         <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py" />
+        <option value="$PROJECT_DIR$/Input/2018/Day4.txt" />
         <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day4_repose_record.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -214,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,7 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt">
+  <component name="RunManager" selected="Python tests.Unittests in test_day4_repose_record.py">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -403,7 +355,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration name="Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_part_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,11 +365,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day2_inventory_management_system.TestInventoryManagementSystem.test_part_2&quot;" />
+      <option name="_new_target" value="&quot;test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day4_repose_record.TestDay4ReposeRecord.test_part_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,11 +379,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_2&quot;" />
+      <option name="_new_target" value="&quot;test_day4_repose_record.TestDay4ReposeRecord.test_part_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day4_repose_record.TestDay4ReposeRecord.test_preparation_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -441,21 +393,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt.test_preparation_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SnakeSqueeze" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Y2018" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt.test_preparation_1&quot;" />
+      <option name="_new_target" value="&quot;test_day4_repose_record.TestDay4ReposeRecord.test_preparation_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -473,20 +411,34 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_day4_repose_record.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="SnakeSqueeze" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Y2018" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day4_repose_record.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python tests.Unittests for test_day4_repose_record.TestDay4ReposeRecord.test_preparation_1" />
+      <item itemvalue="Python tests.Unittests for test_day4_repose_record.TestDay4ReposeRecord.test_part_1" />
       <item itemvalue="Python tests.Unittests in test_day2_inventory_management_system.py" />
-      <item itemvalue="Python tests.Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_part_2" />
-      <item itemvalue="Python tests.Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_2" />
-      <item itemvalue="Python tests.Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt.test_preparation_1" />
-      <item itemvalue="Python tests.Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" />
+      <item itemvalue="Python tests.Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_1" />
+      <item itemvalue="Python tests.Unittests in test_day4_repose_record.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" />
-        <item itemvalue="Python tests.Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt.test_preparation_1" />
-        <item itemvalue="Python tests.Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_2" />
-        <item itemvalue="Python tests.Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_part_2" />
+        <item itemvalue="Python tests.Unittests in test_day4_repose_record.py" />
+        <item itemvalue="Python tests.Unittests for test_day4_repose_record.TestDay4ReposeRecord.test_preparation_1" />
+        <item itemvalue="Python tests.Unittests for test_day2_inventory_management_system.TestInventoryManagementSystem.test_preparation_1" />
         <item itemvalue="Python tests.Unittests in test_day2_inventory_management_system.py" />
+        <item itemvalue="Python tests.Unittests for test_day4_repose_record.TestDay4ReposeRecord.test_part_1" />
       </list>
     </recent_temporary>
   </component>
@@ -504,39 +456,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 49m 02s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 45m 07s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 49m 23s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 45m 58s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 50m 53s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 46m 18s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 50m 54s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 46m 31s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 51m 34s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 50m 39s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 52m 24s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 51m 51s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 52m 25s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 52m 00s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 53m 01s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 52m 02s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 53m 22s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 52m 03s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day3_no_matter_how_you_slice_it_TestDay3NoMatterHowYouSliceIt - 2018.12.03 at 23h 53m 31s.xml">
-      <configuration name="Unittests for test_day3_no_matter_how_you_slice_it.TestDay3NoMatterHowYouSliceIt" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day4_repose_record_py - 2018.12.04 at 23h 53m 57s.xml">
+      <configuration name="Unittests in test_day4_repose_record.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2149401" />
@@ -544,11 +505,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33614457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35180724" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21566264" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2939759" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -595,14 +556,29 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py</url>
           <line>31</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day2_inventory_management_system.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -610,47 +586,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>fabric[0]</expression-string>
+        <expression-string>timedelta(60 - date_time.minute)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tokens[0]</expression-string>
+        <expression-string>date_time + timedelta(60 - date_time.minute)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fabric[x][y].id</expression-string>
+        <expression-string>60 - date_time.minute</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>intacts</expression-string>
+        <expression-string>array(0, _Guard.SHIFT_MINUTES)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fabric[x][y][0]</expression-string>
+        <expression-string>array.array(0, _Guard.SHIFT_MINUTES)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>int(tokens[1] + tokens[3])</expression-string>
+        <expression-string>re.search(DATE_TIME_PATTERN, log)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>id1[:i] + id1[i + 1:]</expression-string>
+        <expression-string>lookup.group(0)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>c1[0:i] + c1[i + 1:]</expression-string>
+        <expression-string>lookup.group(1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>c1[:i] + c1[i + 1:]</expression-string>
+        <expression-string>ä</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -659,7 +635,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AOC/2017/__init__.py" />
     <entry file="file://$PROJECT_DIR$/AOC/Util/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/AOC/y2017/__init__.py" />
     <entry file="file://$PROJECT_DIR$/AOC/y2017/__init__.py" />
     <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
@@ -688,9 +663,6 @@
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Y2018/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -733,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -749,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="480">
           <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -759,8 +724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2017/test_day2_corruption_checksum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -774,17 +739,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$USER_HOME$/.pyenv/versions/3.4.7/lib/python3.4/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="428">
           <caret line="579" selection-start-line="579" selection-end-line="579" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="25" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1543877616000" expanded="true" signature="241:242" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2018/test_day2_inventory_management_system.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="22" selection-end-line="23" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <marker date="1543787412000" expanded="true" signature="249:250" ph="..." />
@@ -793,35 +779,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day3_no_matter_how_you_slice_it.py">
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="420">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day4_repose_record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1543877616000" expanded="true" signature="241:242" ph="..." />
+            <marker date="1543964035000" expanded="true" signature="214:219" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1543964025000" expanded="true" signature="190:195" ph="..." />
+            <marker date="1543964025000" expanded="true" signature="1697:1749" ph="..." />
+            <marker date="1543964025000" expanded="true" signature="2671:2677" ph="..." />
+            <marker date="1543964025000" expanded="true" signature="2721:3117" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-          <folding>
-            <marker date="1543878534000" expanded="true" signature="185:231" ph="..." />
-            <marker date="1543878534000" expanded="true" signature="425:512" ph="..." />
-            <marker date="1543878534000" expanded="true" signature="537:799" ph="..." />
-          </folding>
+        <state relative-caret-position="915">
+          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="40" column="92" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <marker date="1543879053000" expanded="true" signature="55:56" ph="..." />
+            <marker date="1543947622000" expanded="true" signature="55:56" ph="..." />
           </folding>
         </state>
       </provider>
