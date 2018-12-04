@@ -23,7 +23,7 @@ class Day2InventoryManagementSystem:
                 char_cache[char] = char_cache.get(char) + 1 if char in char_cache else 1
             # another way would be to iterate and check if one with 2 and one with 3 exists which
             # also would be a bit more efficient but this approach is nicer to
-            counts = set(char_cache.items())
+            counts = set(char_cache.values())
             count_2 = count_2 + 1 if 2 in counts else count_2
             count_3 = count_3 + 1 if 3 in counts else count_3
         return count_2 * count_3
