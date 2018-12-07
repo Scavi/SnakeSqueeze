@@ -1,4 +1,5 @@
 import sys
+from collections import deque
 
 
 class Day6ChronalCoordinates:
@@ -6,48 +7,62 @@ class Day6ChronalCoordinates:
     def __init__(self, coordinates, max_distance=0):
         self._coordinates = coordinates
         self._max_distance = max_distance
+        self._grid_points, self._max_x, self._max_y = self._calculate_grid_data()
+        self._grid = [[False for _ in range(self._max_y)] for _ in range(self._max_x)]
         sys.setrecursionlimit(50000)
 
     def solve1(self):
         max_fields = 0
-        grid_points, max_x, max_y = self._determine_grid_data()
-        for x in range(0, max_x):
-            for y in range(0, max_y):
-                closest_points = self._count_closest_points(grid_points, x, y)
-                if len(closest_points) == 1 and not closest_points[0].is_infinite:
-                    closest_points[0].closest_fields += 1
-                    max_fields = max(closest_points[0].closest_fields, max_fields)
+        for grid_point in self._grid_points:
+            self._search_spot_environment(grid_point, grid_point.x, grid_point.y)
+            max_fields = max(max_fields, grid_point.space)
         return max_fields
 
-    def solve2(self):
-        grid_points, max_x, max_y = self._determine_grid_data()
-        grid = [[False for _ in range(max_y)] for _ in range(max_x)]
-        return self._find_region(grid, grid_points, int(max_x / 2), int(max_y / 2), max_x, max_y)
+    def _try_add(self, q, point, x, y):
+        if point.is_infinite or x < 0 or x >= self._max_x or y < 0 or y >= self._max_y or \
+                self._grid[x][y]:
+            return
+        q.append((x, y))
 
-    def _find_region(self, grid, grid_points, current_x, current_y, max_x, max_y):
-        if current_x < 0 or current_x > max_x or current_y < 0 or current_y > max_y or \
-                grid[current_x][current_y]:
+    def _search_spot_environment(self, point, x, y):
+        if point.is_infinite or x < 0 or x >= self._max_x or y < 0 or y >= self._max_y or \
+                self._grid[x][y]:
+            return
+        closest_points = self._count_closest_points(self._grid_points, x, y)
+        if len(closest_points) == 1 and closest_points[0].point_id == point.point_id:
+            point.space += 1
+            self._grid[x][y] = True
+            self._search_spot_environment(point, x - 1, y)
+            self._search_spot_environment(point, x + 1, y)
+            self._search_spot_environment(point, x, y - 1)
+            self._search_spot_environment(point, x, y + 1)
+
+    def solve2(self):
+        return self._find_region(int(self._max_x / 2), int(self._max_y / 2))
+
+    def _find_region(self, x, y):
+        if x < 0 or x > self._max_x or y < 0 or y > self._max_y or self._grid[x][y]:
             return 0
         count = 0
-        if self._in_distance(grid_points, current_x, current_y):
-            count += 1
-            grid[current_x][current_y] = True
-            count += self._find_region(grid, grid_points, current_x - 1, current_y, max_x, max_y)
-            count += self._find_region(grid, grid_points, current_x + 1, current_y, max_x, max_y)
-            count += self._find_region(grid, grid_points, current_x, current_y - 1, max_x, max_y)
-            count += self._find_region(grid, grid_points, current_x, current_y + 1, max_x, max_y)
+        if self._in_distance(x, y):
+            count = 1
+            self._grid[x][y] = True
+            count += self._find_region(x - 1, y)
+            count += self._find_region(x + 1, y)
+            count += self._find_region(x, y - 1)
+            count += self._find_region(x, y + 1)
         return count
 
-    def _in_distance(self, grid_points, current_x, current_y):
+    def _in_distance(self, current_x, current_y):
         i = 0
         remaining_distance = self._max_distance
-        while i < len(grid_points) and remaining_distance >= 0:
-            remaining_distance -= self._distance(grid_points[i], current_x, current_y)
+        while i < len(self._grid_points) and remaining_distance >= 0:
+            remaining_distance -= self._distance(self._grid_points[i], current_x, current_y)
             i += 1
         return remaining_distance > 0
 
     # TODO naive & slow
-    def _determine_grid_data(self):
+    def _calculate_grid_data(self):
         max_x = 0
         max_y = 0
         grid_points = list()
@@ -108,7 +123,7 @@ class _GridPoint:
         self.x = x
         self.y = y
         self.is_infinite = False
-        self.closest_fields = 0
+        self.space = 0
 
     def __repr__(self):
         return "{} [{}:{}] = {}".format(self.point_id, self.x, self.y, self.is_infinite)
