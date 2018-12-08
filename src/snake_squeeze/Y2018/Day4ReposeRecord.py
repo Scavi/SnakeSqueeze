@@ -77,7 +77,7 @@ class _Guard:
     def _extract_date(record):
         date_time_lookup = re.search(DATE_TIME_PATTERN, record)
         if not date_time_lookup:
-            raise ValueError("Illegal date time format in '{}'".format(record))
+            raise ValueError("Illegal date working_time format in '{}'".format(record))
         date_time = datetime.strptime(date_time_lookup.group(0), "%Y-%m-%d %H:%M")
         if date_time.hour is 23:
             date_time = date_time + timedelta(minutes=60 - date_time.minute)
