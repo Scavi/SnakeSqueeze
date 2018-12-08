@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ed6568-c5b2-40ff-8865-0a5d4abd7eac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Input/2018/Day5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input/2018/Day6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day5AlchemicalReduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Y2018/test_day5_alchemical_reduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Y2018/test_day6_chronal_coordinates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Input/2018/Day7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Input/2018/Day8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day8MemoryManeuver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Y2018/test_day7_the_sum_of_its_parts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Y2018/test_day8_memory_maneuver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,27 +31,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="36" />
-          <entry key="py" value="12954" />
-          <entry key="txt" value="1" />
+          <entry key="dummy" value="59" />
+          <entry key="py" value="20373" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="12954" />
+          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="Python" value="20373" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="41" />
-          <entry key="txt" value="9" />
+          <entry key="py" value="61" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="41" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="61" />
         </counts>
       </usages-collector>
     </session>
@@ -58,109 +59,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="199">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1543964025000" expanded="true" signature="190:195" ph="..." />
-                <marker date="1543964025000" expanded="true" signature="1697:1749" ph="..." />
-                <marker date="1543964025000" expanded="true" signature="2671:2677" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day5AlchemicalReduction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="42" />
-              <folding>
-                <marker date="1544013291000" expanded="true" signature="103:112" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day5_alchemical_reduction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1544034303000" expanded="true" signature="235:236" ph="..." />
-                <marker date="1544034303000" expanded="true" signature="235:575" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/2018/Day6.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.pyenv/versions/3.4.7/lib/python3.4/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="579" selection-start-line="579" selection-end-line="579" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="38" />
-              <folding>
-                <marker date="1544128176000" expanded="true" signature="136:221" ph="..." />
-                <marker date="1544128176000" expanded="true" signature="216:221" ph="..." />
-                <marker date="1544128176000" expanded="true" signature="1847:2123" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="249:958" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="1699:1893" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="2135:2162" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="2198:2207" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="2603:2607" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="2886:3897" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="3090:3134" ph="..." />
+                <marker date="1544273178000" expanded="true" signature="4120:4335" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day6_chronal_coordinates.py">
+        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day7_the_sum_of_its_parts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="295">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
+                <marker date="1544273209000" expanded="true" signature="226:231" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Input/2018/Day5.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9704" selection-start-line="1" selection-start-column="9704" selection-end-line="1" selection-end-column="9704" />
             </state>
           </provider>
         </entry>
@@ -181,8 +106,23 @@
       <find>eYyHZOozlLS</find>
       <find>.split</find>
       <find>a</find>
-      <find>array</find>
       <find>coordinates</find>
+      <find>_grid_points</find>
+      <find>self._grid_points</find>
+      <find>self._grid</find>
+      <find>self._distance(</find>
+      <find>closest_fields</find>
+      <find>array</find>
+      <find>ID_PATTERN</find>
+      <find>value</find>
+      <find>ASCII_SUB</find>
+      <find>CINYHLFMRKOGQAXUZPVSBJWDE</find>
+      <find>CINY</find>
+      <find>is_working</find>
+      <find>self.iswork</find>
+      <find>CHILFNMORYKGAQXUVBZPSJWDET</find>
+      <find>CINYHLFMRKOGQAXUZPVSBJWDET</find>
+      <find>CABDFE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,12 +163,19 @@
         <option value="$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py" />
         <option value="$PROJECT_DIR$/test/Y2018/test_day5_alchemical_reduction.py" />
         <option value="$PROJECT_DIR$/Input/2018/Day6.txt" />
-        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py" />
         <option value="$PROJECT_DIR$/test/Y2018/test_day6_chronal_coordinates.py" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day7.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py" />
+        <option value="$PROJECT_DIR$/Input/2018/Day7.txt" />
+        <option value="$PROJECT_DIR$/Input/2018/Day8.txt" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day8_memory_maneuver.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day8MemoryManeuver.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day7_the_sum_of_its_parts.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -350,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates">
+  <component name="RunManager" selected="Python tests.Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -431,7 +378,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration name="Unittests for test_day5_alchemical_reduction.TestDay5AlchemicalReduction" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -441,11 +388,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day5_alchemical_reduction.TestDay5AlchemicalReduction&quot;" />
+      <option name="_new_target" value="&quot;test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -455,11 +402,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day6_chronal_coordinates.TestDay6ChronalCoordinates&quot;" />
+      <option name="_new_target" value="&quot;test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_part_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day8_memory_maneuver.TestDay8MemoryManeuver" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -469,11 +416,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_part_2&quot;" />
+      <option name="_new_target" value="&quot;test_day8_memory_maneuver.TestDay8MemoryManeuver&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day8_memory_maneuver.TestDay8MemoryManeuver.test_preparation_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -483,11 +430,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2&quot;" />
+      <option name="_new_target" value="&quot;test_day8_memory_maneuver.TestDay8MemoryManeuver.test_preparation_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_day6_chronal_coordinates.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_day7_the_sum_of_its_parts.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SnakeSqueeze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -497,24 +444,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day6_chronal_coordinates.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day7_the_sum_of_its_parts.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_day5_alchemical_reduction.TestDay5AlchemicalReduction" />
-      <item itemvalue="Python tests.Unittests in test_day6_chronal_coordinates.py" />
-      <item itemvalue="Python tests.Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2" />
-      <item itemvalue="Python tests.Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_part_2" />
-      <item itemvalue="Python tests.Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates" />
+      <item itemvalue="Python tests.Unittests for test_day8_memory_maneuver.TestDay8MemoryManeuver.test_preparation_2" />
+      <item itemvalue="Python tests.Unittests for test_day8_memory_maneuver.TestDay8MemoryManeuver" />
+      <item itemvalue="Python tests.Unittests in test_day7_the_sum_of_its_parts.py" />
+      <item itemvalue="Python tests.Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2" />
+      <item itemvalue="Python tests.Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates" />
-        <item itemvalue="Python tests.Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_part_2" />
-        <item itemvalue="Python tests.Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2" />
-        <item itemvalue="Python tests.Unittests in test_day6_chronal_coordinates.py" />
-        <item itemvalue="Python tests.Unittests for test_day5_alchemical_reduction.TestDay5AlchemicalReduction" />
+        <item itemvalue="Python tests.Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts" />
+        <item itemvalue="Python tests.Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2" />
+        <item itemvalue="Python tests.Unittests in test_day7_the_sum_of_its_parts.py" />
+        <item itemvalue="Python tests.Unittests for test_day8_memory_maneuver.TestDay8MemoryManeuver" />
+        <item itemvalue="Python tests.Unittests for test_day8_memory_maneuver.TestDay8MemoryManeuver.test_preparation_2" />
       </list>
     </recent_temporary>
   </component>
@@ -532,35 +479,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates_test_preparation_2 - 2018.12.06 at 21h 05m 17s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day8_memory_maneuver_TestDay8MemoryManeuver - 2018.12.08 at 13h 37m 55s.xml">
+      <configuration name="Unittests for test_day8_memory_maneuver.TestDay8MemoryManeuver" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates_test_preparation_2 - 2018.12.06 at 21h 05m 33s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day7_the_sum_of_its_parts_py - 2018.12.08 at 13h 41m 05s.xml">
+      <configuration name="Unittests in test_day7_the_sum_of_its_parts.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates_test_preparation_2 - 2018.12.06 at 21h 05m 54s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day7_the_sum_of_its_parts_py - 2018.12.08 at 13h 42m 13s.xml">
+      <configuration name="Unittests in test_day7_the_sum_of_its_parts.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates_test_preparation_2 - 2018.12.06 at 21h 06m 24s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_preparation_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day7_the_sum_of_its_parts_TestDay7TheSumOfItsParts_test_preparation_2 - 2018.12.08 at 13h 45m 00s.xml">
+      <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates_test_part_2 - 2018.12.06 at 21h 06m 32s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_part_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day7_the_sum_of_its_parts_TestDay7TheSumOfItsParts_test_preparation_2 - 2018.12.08 at 13h 45m 01s.xml">
+      <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates_test_part_2 - 2018.12.06 at 21h 06m 52s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_part_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day7_the_sum_of_its_parts_TestDay7TheSumOfItsParts_test_preparation_2 - 2018.12.08 at 13h 45m 41s.xml">
+      <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates_test_part_2 - 2018.12.06 at 21h 07m 44s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates.test_part_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day7_the_sum_of_its_parts_TestDay7TheSumOfItsParts_test_preparation_2 - 2018.12.08 at 13h 45m 50s.xml">
+      <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts.test_preparation_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates - 2018.12.06 at 21h 28m 37s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day7_the_sum_of_its_parts_TestDay7TheSumOfItsParts - 2018.12.08 at 13h 45m 53s.xml">
+      <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates - 2018.12.06 at 21h 29m 46s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day7_the_sum_of_its_parts_TestDay7TheSumOfItsParts - 2018.12.08 at 13h 46m 19s.xml">
+      <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day6_chronal_coordinates_TestDay6ChronalCoordinates - 2018.12.06 at 21h 30m 30s.xml">
-      <configuration name="Unittests for test_day6_chronal_coordinates.TestDay6ChronalCoordinates" configurationId="tests" />
+    <history-entry file="Unittests_for_test_day7_the_sum_of_its_parts_TestDay7TheSumOfItsParts - 2018.12.08 at 13h 46m 33s.xml">
+      <configuration name="Unittests for test_day7_the_sum_of_its_parts.TestDay7TheSumOfItsParts" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -573,16 +520,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2149401" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27349398" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38554215" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16024096" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4433735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20843373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -673,8 +620,58 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py</url>
-          <line>33</line>
+          <line>48</line>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day6_chronal_coordinates.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day6_chronal_coordinates.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day7_the_sum_of_its_parts.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day8MemoryManeuver.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day8_memory_maneuver.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day8_memory_maneuver.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day8MemoryManeuver.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="183" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -682,47 +679,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>grid[current_y][current_x]</expression-string>
+        <expression-string>max(busy_until)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>grid[current_y[current_x]]</expression-string>
+        <expression-string>worker.current_node.node_id</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>grid[current_x][current_y]</expression-string>
+        <expression-string>ord(current_node.node_id) - _Worker.ASCII_SUB</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._in_distance(grid_points, current_x, current_y)</expression-string>
+        <expression-string>ord(current_node.node_id)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._distance(grid_points[i], current_x, current_y)</expression-string>
+        <expression-string>current_node.node_id</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>grid_points[i]</expression-string>
+        <expression-string>len(steps)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>chr(point_id)</expression-string>
+        <expression-string>len(step_order)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str(point_id)</expression-string>
+        <expression-string>next_node.prev</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(test)</expression-string>
+        <expression-string>step_graph.get(current)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -798,13 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2017/test_day1_inverse_captacha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -866,16 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <marker date="1543947622000" expanded="true" signature="55:56" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -887,23 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="9704" selection-start-line="1" selection-start-column="9704" selection-end-line="1" selection-end-column="9704" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.4.7/lib/python3.4/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="579" selection-start-line="579" selection-end-line="579" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day5AlchemicalReduction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <marker date="1544013291000" expanded="true" signature="103:112" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,23 +882,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="212">
+          <caret line="35" selection-start-line="33" selection-end-line="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543964025000" expanded="true" signature="190:195" ph="..." />
-            <marker date="1543964025000" expanded="true" signature="1697:1749" ph="..." />
-            <marker date="1543964025000" expanded="true" signature="2671:2677" ph="..." />
+            <marker date="1544222669000" expanded="true" signature="190:195" ph="..." />
+            <marker date="1544222669000" expanded="true" signature="1697:1749" ph="..." />
+            <marker date="1544222669000" expanded="true" signature="2671:2677" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -946,27 +905,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.4.7/lib/python3.4/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="579" selection-start-line="579" selection-end-line="579" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="207">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <marker date="1544128176000" expanded="true" signature="136:221" ph="..." />
-            <marker date="1544128176000" expanded="true" signature="216:221" ph="..." />
-            <marker date="1544128176000" expanded="true" signature="1847:2123" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1544221809000" expanded="true" signature="884:889" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1543947622000" expanded="true" signature="55:56" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="53" column="79" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day5AlchemicalReduction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <marker date="1544013291000" expanded="true" signature="103:112" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2018/test_day6_chronal_coordinates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="331">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day8_memory_maneuver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1544272644000" expanded="true" signature="220:221" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day8MemoryManeuver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <marker date="1544272836000" expanded="true" signature="331:393" ph="..." />
+            <marker date="1544272836000" expanded="true" signature="425:1412" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <marker date="1544273178000" expanded="true" signature="249:958" ph="..." />
+            <marker date="1544273178000" expanded="true" signature="1699:1893" ph="..." />
+            <marker date="1544273178000" expanded="true" signature="2135:2162" ph="..." />
+            <marker date="1544273178000" expanded="true" signature="2198:2207" ph="..." />
+            <marker date="1544273178000" expanded="true" signature="2603:2607" ph="..." />
+            <marker date="1544273178000" expanded="true" signature="2886:3897" ph="..." />
+            <marker date="1544273178000" expanded="true" signature="3090:3134" ph="..." />
+            <marker date="1544273178000" expanded="true" signature="4120:4335" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day7_the_sum_of_its_parts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1544273209000" expanded="true" signature="226:231" ph="..." />
           </folding>
         </state>
       </provider>
