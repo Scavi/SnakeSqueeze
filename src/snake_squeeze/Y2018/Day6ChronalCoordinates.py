@@ -1,5 +1,4 @@
 import sys
-from collections import deque
 
 
 class Day6ChronalCoordinates:
@@ -11,6 +10,7 @@ class Day6ChronalCoordinates:
         self._grid = [[False for _ in range(self._max_y)] for _ in range(self._max_x)]
         sys.setrecursionlimit(50000)
 
+
     def solve1(self):
         max_fields = 0
         for grid_point in self._grid_points:
@@ -18,11 +18,13 @@ class Day6ChronalCoordinates:
             max_fields = max(max_fields, grid_point.space)
         return max_fields
 
+
     def _try_add(self, q, point, x, y):
         if point.is_infinite or x < 0 or x >= self._max_x or y < 0 or y >= self._max_y or \
                 self._grid[x][y]:
             return
         q.append((x, y))
+
 
     def _search_spot_environment(self, point, x, y):
         if point.is_infinite or x < 0 or x >= self._max_x or y < 0 or y >= self._max_y or \
@@ -37,8 +39,10 @@ class Day6ChronalCoordinates:
             self._search_spot_environment(point, x, y - 1)
             self._search_spot_environment(point, x, y + 1)
 
+
     def solve2(self):
         return self._find_region(int(self._max_x / 2), int(self._max_y / 2))
+
 
     def _find_region(self, x, y):
         if x < 0 or x > self._max_x or y < 0 or y > self._max_y or self._grid[x][y]:
@@ -53,6 +57,7 @@ class Day6ChronalCoordinates:
             count += self._find_region(x, y + 1)
         return count
 
+
     def _in_distance(self, current_x, current_y):
         i = 0
         remaining_distance = self._max_distance
@@ -60,6 +65,7 @@ class Day6ChronalCoordinates:
             remaining_distance -= self._distance(self._grid_points[i], current_x, current_y)
             i += 1
         return remaining_distance > 0
+
 
     # TODO naive & slow
     def _calculate_grid_data(self):
@@ -98,6 +104,7 @@ class Day6ChronalCoordinates:
                 closest_points[0].is_infinite = True
         return grid_points, max_x, max_y
 
+
     # TODO naive & slow
     def _count_closest_points(self, grid_points, x, y):
         closest_points = list()
@@ -112,6 +119,7 @@ class Day6ChronalCoordinates:
                 closest_points.append(grid_point)
         return closest_points
 
+
     @staticmethod
     def _distance(grid_point, x, y):
         return abs(grid_point.x - x) + abs(grid_point.y - y)
@@ -124,6 +132,7 @@ class _GridPoint:
         self.y = y
         self.is_infinite = False
         self.space = 0
+
 
     def __repr__(self):
         return "{} [{}:{}] = {}".format(self.point_id, self.x, self.y, self.is_infinite)
