@@ -1,105 +1,93 @@
+import sys
+
+
 class Day11ChronalCharge:
-    def __init__(self, grid_size):
-        self._size = grid_size  # grid starts with 1,1 at array pos 0,0
-        self._square_size = 3
+    def __init__(self, square_size=3):
+        self._size = 300
+        self._square_size = square_size
 
 
     def solve(self, serial_number):
+        """
+        Returns:
+            (tuple): x,y of the start or x,y,size
+        """
+        power_grid = self._setup_grid(serial_number)
+        aux = self._create_cache(power_grid)
+        max_sum = -sys.maxsize - 1
+        top_x = top_y = size = 0
+        for y in range(self._size):
+            for x in range(self._size):
+                size_lookup = self._calc_size(x, y)
+                for s in range(1, size_lookup):
+                    if not self._square_size or (y + s < self._size and x + s < self._size):
+                        current_sum = self._calc_sum(aux, x, y, x + s, y + s)
+                        if current_sum > max_sum:
+                            top_x = x
+                            top_y = y
+                            size = s
+                            max_sum = current_sum
+        return "{},{}".format(top_x + 1, top_y + 1), "{},{},{}".format(top_x + 1, top_y + 1, size + 1)
+
+
+    def _calc_size(self, x, y):
+        return self._square_size if self._square_size else self._size - max(x, y)
+
+
+    @staticmethod
+    def _calc_sum(grid_cache, x_top, y_top, x_bottom, y_bottom):
+        """
+        Computes the sum of the given cache between *_top and *_bottom. The given two dimensional array contains already
+        the precomputed values. The cache
+        """
+        result = grid_cache[y_bottom][x_bottom]
+        # removes all elements between (0, 0) and (y_top - 1, x_bottom)
+        if y_top > 0:
+            result = result - grid_cache[y_top - 1][x_bottom]
+        # removes all elements between (0, 0) and (y_bottom, x_top - 1)
+        if x_top > 0:
+            result = result - grid_cache[y_bottom][x_top - 1]
+        if y_top > 0 and x_top > 0:
+            result = result + grid_cache[y_top - 1][x_top - 1]
+        return result
+
+
+    @staticmethod
+    def _create_cache(power_grid):
+        """
+        Sums up all values between (0,0) and (x,y)
+
+        Args:
+            power_grid (int[][]): The power grid
+
+        Returns:
+            int[][]: The grid cache
+        """
+        grid_cache = [[0 for _ in range(len(power_grid[0]))] for _ in range(len(power_grid))]
+
+        # fill first row
+        for x in range(len(power_grid[0])):
+            grid_cache[0][x] = power_grid[0][x]
+
+        # sum up the columns
+        for y in range(1, len(power_grid)):
+            for x in range(len(power_grid[0])):
+                grid_cache[y][x] = power_grid[y][x] + grid_cache[y - 1][x]
+
+        # sum up the rows
+        for y in range(len(power_grid)):
+            for x in range(1, len(power_grid[0])):
+                grid_cache[y][x] += grid_cache[y][x - 1]
+
+        return grid_cache
+
+
+    def _setup_grid(self, serial_number):
         power_grid = [[0 for _ in range(0, self._size)] for _ in range(0, self._size)]
         for y in range(self._size):
             for x in range(self._size):
                 power_grid[y][x] = self._power_level(serial_number, x, y)
-        target_x, target_y, result_sum = self._naive(power_grid)
-
-        # cache = self._create_cache(power_grid)
-        # target_x, target_y, result_sum = self._search_grid(power_grid, cache)
-        # # tmp = [[1, 1, 1, 1, 1],
-        # #        [2, 2, 2, 2, 2],
-        # #        [3, 8, 6, 7, 3],
-        # #        [4, 4, 4, 4, 4],
-        # #        [5, 5, 5, 5, 5]]
-        # # r = self.test_it(tmp)
-        #
-
-        #
-        # tmp = [[-2, -4, 4, 4, 4],
-        #        [-4, 4, 4, 4, -5],
-        #        [4, 3, 3, 4, -4],
-        #        [1, 1, 2, 4, -3],
-        #        [1, 0, 2, -5, 2]]
-        # r = self.test_it(tmp)
-
-        # <class 'list'>: [ 3,-3,  3, 0,-2,-3,-2, 0, 3,-3, 2,-1,-3,-4,-4,-2, 1,-5, 0,-4, 4, 3, 3, 4,-4, 0,-5, 1,-1, -3, -3, -2, 0, 4, -1, -5, 2, 0, 0, 1, 3, -4, 0, -4, 3, 1, 0, 1, 3, -4, 0, -5, 2, 0, -1, -1, 1, 4, -2, 3, -1, -3, -4, -4, -3, 0, 4, -1, -5, 2, 1, 1, 2, 4, -3, 2, -2, -5, 4, 3, 4, -4, -1, 4, 0, -3, -5, 4, -5, -3, 0, 4, -1, -4, 4, 3, 3, -5, -2, 2, -3, 3, 1, 0, 0, 1, 4, -2, 3, -1, -4, -5, -5, -4, -2, 2, -3, 3, 0, -2, -2, -1, 1, 4, -2, 4, 1, -1, -1, -1, 1, 4, -2, 4, 1, -1, -2, -2, 0, 3, -3, 2, -2, -4, -5, -5, -4, -1, 3, -2, 4, 1, 0, 0, 1, 3, -3, 2, -2, -5, 3, 3, 4, -4, -1, 4, 0, -3, -5, 4, -5, -3, 0, 4, -1, -4, 4, 3, 4, -5, -2, 2, -3, 4, 2, 1, 1, 2, -5, -1, 4, 0, -3, -4, -4, -3, -1, 3, -2, 4, 1, -1, -1, 0, 2, -5, 0, -4, 3, 1, 0, 1, 3, -4, 0, -4, 3, 1, 0, 0, 2, -5, -1, 4, 0, -2, -3, -3, -1, 1, -5, 0, -4, 4, 3, 3, 4, -4, 0, -5, 1, -2, -4, -4, -3, -1, 2, -3, 3, 0, -2, -3, -2, 0, 3, -3, 3, 0, -2, -3, -3, -1, 2, -4, 1, -2, -4, -5, -5, -4, -1, 3, -2, 4, 1, 0, 0, 1, 4, -3, 2, -2, -5, 4, 4, -5, -3, 0, -5, 1, -2, -4, -5, -4, -2, 1, -5, 1, -2, -4]
-        # <class 'list'>: [ 4,-1, -5, 2, 0, 0, 1, 3,-4, 1,-3, 4, 2, 2, 3,-5,-2, 2,-2,-5, 3, 3, 4,-4,-1, 3,-1,-4, 4, 3, 4, -4, -1, 3, -1, -4, 4, 3, 4, -4, -1, 3, -2, -5, 3, 2, 3, -5, -2, 2, -3, 4, 2, 1, 1, 3, -4, 0, -5, 2, 0, -1, -1, 1, 4, -2, 3, -1, -3, -4, -4, -2, 1, -5, 0, -4, 4, 3, 3, 4, -3, 1, -4, 2, 0, -1, -1, 0, 3, -3, 2, -2, -5, 4, 4, -5, -2, 2, -3, 3, 0, -1, -1, 0, 2, -4, 1, -3, 4, 3, 3, 4, -4, 0, -5, 1, -2, -4, -4, -3, -1, 3, -2, 4, 1, -1, -1, 0, 2, -5, 0, -4, 3, 1, 1, 2, 4, -3, 2, -2, -5, 3, 2, 3, -5, -2, 3, -1, -4, 4, 3, 4, -4, -1, 3, -1, -4, 4, 3, 4, -4, -1, 3, -1, -4, 4, 3, 3, -5, -2, 2, -2, -5, 3, 2, 2, 4, -3, 1, -4, 3, 1, 0, 0, 2, -5, -1, 4, 1, -1, -2, -2, -1, 2, -4, 1, -2, -4, -5, -5, -4, -1, 3, -2, 4, 2, 1, 1, 2, -5, -1, 4, 0, -2, -3, -3, -2, 0, 4, -1, -5, 3, 2, 2, 3, -5, -1, 4, 0, -3, -4, -4, -3, -1, 3, -2, 4, 1, 0, 0, 1, 3, -4, 1, -3, 4, 3, 3, 4, -4, -1, 4, 0, -3, -5, -5, -4, -2, 1, -4, 2, -1, -3, -3, -2, 0, 3, -3, 3, 0, -2, -2, -1, 1, 4, -2, 4, 1, -1, -2, -1, 1, 4, -2, 4, 1, -1, -2, -1, 1, 4, -2, 3, 0, -2, -3, -2, 0, 3, -3]
-        # <class 'list'>: [-5, 0, -4, 4, 3, 3, 4,-4, 0,-5, 1,-1,-3,-3,-1, 1,-5, 0,-3, 4, 3, 3, 4,-3, 1,-4, 3, 0,-1, -1, 1, 3, -3, 3, -1, -3, -4, -4, -2, 1, -5, 0, -4, 4, 3, 4, -5, -2, 2, -2, 4, 2, 1, 2, 4, -3, 1, -4, 3, 1, 0, 1, 2, -5, 0, -5, 2, 0, 0, 0, 2, -5, -1, -5, 2, 0, 0, 0, 2, -5, 0, -5, 2, 1, 0, 1, 3, -4, 1, -3, 4, 2, 1, 2, 4, -2, 2, -2, -5, 4, 3, 4, -4, 0, -5, 1, -2, -4, -4, -3, -1, 3, -3, 3, 1, -1, -1, 0, 3, -4, 1, -3, 4, 3, 3, 4, -3, 0, -5, 1, -1, -3, -3, -1, 1, -5, 0, -4, 4, 3, 3, 4, -4, 0, -5, 2, -1, -2, -2, 0, 2, -4, 1, -2, -4, -5, -5, -4, -1, 3, -2, -5, 2, 1, 2, 3, -4, 0, -4, 2, 0, -1, -1, 1, 4, -2, 4, 0, -2, -3, -2, -1, 2, -3, 2, -1, -3, -4, -3, -1, 2, -4, 1, -2, -4, -4, -4, -2, 1, -4, 1, -2, -4, -4, -3, -1, 2, -4, 2, -1, -3, -3, -3, -1, 3, -3, 3, 0, -1, -2, -1, 1, 4, -1, -5, 2, 1, 0, 1, 3, -3, 1, -3, -5, 3, 3, 4, -4, 0, -5, 1, -2, -4, -4, -3, 0, 3, -2, 4, 2, 0, 0, 1, 4, -2, 3, -1, -4, -5, -5, -4, -1, 2, -3, 4, 1, 0, 0, 2, 4, -2, 3, -1, -3, -4, -4, -2, 0, 4, -1, -4, 3, 2, 3, 4, -3, 1, -4, 3, 1, 0, 0, 1, 4, -2, 4, 0, -2, -3, -2]
-
-        # print("{} {} {}".format(grid[45 - 1][33 - 1], grid[45 - 1][34 - 1], grid[45 - 1][35 - 1]))
-        # print("{} {} {}".format(grid[46 - 1][33 - 1], grid[46 - 1][34 - 1], grid[46 - 1][35 - 1]))
-        # print("{} {} {}".format(grid[47 - 1][33 - 1], grid[47 - 1][34 - 1], grid[47 - 1][35 - 1]))
-        # print("--------------------------------------")
-        # print("{} {} {}".format(grid[33 - 1][45 - 1], grid[34 - 1][45 - 1], grid[35 - 1][45 - 1]))
-        # print("{} {} {}".format(grid[33 - 1][46 - 1], grid[34 - 1][46 - 1], grid[35 - 1][46 - 1]))
-        # print("{} {} {}".format(grid[33 - 1][47 - 1], grid[34 - 1][47 - 1], grid[35 - 1][47 - 1]))
-
-        return power_grid, target_x, target_y, result_sum
-
-    def _naive(self, power_grid):
-        max_sum = 0
-        target_x = 0
-        target_y = 0
-        for y in range(self._size - self._square_size):
-            for x in range(self._size - self._square_size):
-                tmp = 0
-                for i in range(self._square_size):
-                    for j in range(self._square_size):
-                        tmp += power_grid[y + i][x + j]
-                if tmp > max_sum:
-                    max_sum = tmp
-                    target_x = x
-                    target_y = y
-        return target_x, target_y, max_sum
-
-    def _create_cache(self, power_grid):
-        cache = [[0 for _ in range(0, self._size)] for _ in range(0, self._size)]
-        for x in range(self._size):
-            tmp = 0
-            for y in range(self._square_size):
-                tmp += power_grid[y][x]
-            cache[0][x] = tmp
-            for y in range(1, self._size - self._square_size + 1):
-                tmp += (power_grid[y + self._square_size - 1][x] - power_grid[y - 1][x])
-                cache[y][x] = tmp
-        return cache
-
-
-    def _search_grid(self, power_grid, cache):
-        target_x = 0
-        target_y = 0
-        max_sum = 0
-        for y in range(self._size - self._square_size + 1):
-            tmp = 0
-            for x in range(self._square_size):
-                tmp = cache[y][x]
-
-            if tmp > max_sum:
-                max_sum = tmp
-                target_x = 0
-                target_y = y
-
-            for x in range(1, self._size - self._square_size + 1):
-                tmp += cache[y][x + self._square_size - 1] - cache[y][x - 1]
-                if tmp > max_sum:
-                    max_sum = tmp
-                    target_x = x
-                    target_y = y
-
-        target_y += 1
-        result_sum = 0
-        for y in range(target_y, self._square_size + target_y):
-            for x in range(target_x, self._square_size + target_x):
-                result_sum += power_grid[y][x]
-                print(power_grid[y][x])
-        return target_x, target_y, result_sum
+        return power_grid
 
 
     @staticmethod
