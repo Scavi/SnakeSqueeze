@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ed6568-c5b2-40ff-8865-0a5d4abd7eac" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Input/2018/Day9.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day9MarbleMania.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2018/test_day9_marble_mania.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" afterPath="$PROJECT_DIR$/.idea/SnakeSqueeze.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Input/2018/Day10_1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Input/2018/Day10_2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Input/2018/Day16_1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Input/2018/Day16_2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day10TheStarsAlign.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2018/test_day10_the_stars_align.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Y2018/test_day16_chronal_classification.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py" />
+      <change beforePath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Helper.py" afterPath="$PROJECT_DIR$/src/snake_squeeze/Y2018/Helper.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,36 +62,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Day9MarbleMania.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day9MarbleMania.py">
+      <file leaf-file-name="Day16ChronalClassification.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="198">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day7TheSumofItsParts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py">
+      <file leaf-file-name="Helper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="50" />
+            <state relative-caret-position="662">
+              <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_day9_marble_mania.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day9_marble_mania.py">
+      <file leaf-file-name="test_day16_chronal_classification.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Y2018/test_day16_chronal_classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="604" column="0" lean-forward="false" selection-start-line="604" selection-start-column="0" selection-end-line="604" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day16_2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/2018/Day16_2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day16_1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input/2018/Day16_1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="3126" column="20" lean-forward="true" selection-start-line="3126" selection-start-column="20" selection-end-line="3126" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,20 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_</find>
-      <find>work_overview</find>
-      <find>eYyHZOozlLS</find>
-      <find>.split</find>
-      <find>a</find>
-      <find>coordinates</find>
-      <find>_grid_points</find>
-      <find>self._grid_points</find>
-      <find>self._grid</find>
-      <find>self._distance(</find>
-      <find>closest_fields</find>
-      <find>array</find>
-      <find>ID_PATTERN</find>
-      <find>value</find>
       <find>ASCII_SUB</find>
       <find>CINYHLFMRKOGQAXUZPVSBJWDE</find>
       <find>CINY</find>
@@ -127,6 +147,26 @@
       <find>CABDFE</find>
       <find>re.</find>
       <find>.search</find>
+      <find>in range(</find>
+      <find>distance</find>
+      <find>1, self._size - square_size + 1</find>
+      <find>add</find>
+      <find>.input</find>
+      <find>supports</find>
+      <find>register_method</find>
+      <find>instructions</find>
+      <find>known_instructions</find>
+      <find>borr</find>
+      <find>....#...#......#.....#...#.........#...#.....#...#...#....#.......#.....#.....#.....#.....#...#...#...#...#...#.....#...#...#....#....</find>
+      <find>18</find>
+      <find>42</find>
+      <find>so_far</find>
+      <find>equals</find>
+      <find>_create_cache</find>
+      <find>Cache</find>
+      <find>acres</find>
+      <find>pos_of</find>
+      <find>execute</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,12 +196,34 @@
         <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py" />
         <option value="$PROJECT_DIR$/test/Y2018/test_day9_marble_mania.py" />
         <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day9MarbleMania.py" />
+        <option value="$PROJECT_DIR$/Input/2018/Day10_1.txt" />
+        <option value="$PROJECT_DIR$/Input/2018/Day10_2.txt.py" />
+        <option value="$PROJECT_DIR$/Input/2018/Day10_2.txt" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day_11_chronal_charge.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16Day16ChronalClassification.py" />
+        <option value="$PROJECT_DIR$/Input/2018/Day16.txt" />
+        <option value="$PROJECT_DIR$/Input/2018/Day16_1.txt" />
+        <option value="$PROJECT_DIR$/Input/2018/Day16_2.txt" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day16_chronal_classification.py" />
+        <option value="$PROJECT_DIR$/Input/2018/Day12.txt" />
+        <option value="$PROJECT_DIR$/Input/2018/Day18.txt" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day18_settlers_of_the_north_pole.py" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day11_chronal_charge.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day11ChronalCharge.py" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day10_the_stars_align.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day10TheStarsAlign.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day18SettlersOfTheNorthPole.py" />
+        <option value="$PROJECT_DIR$/test/Y2018/test_day12_subterranean_sustainability.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day12SubterraneanSustainability.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Helper.py" />
+        <option value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1987" />
+    <option name="width" value="3373" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -179,7 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,23 +328,24 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/scavenger/Software/SnakeSqueeze/src/snake_squeeze/Y2018/Day12SubterraneanSustainability.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Input/2018" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/snake_squeeze" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/AOC/src" />
       <recent name="$PROJECT_DIR$/AOC/src/snake_squeeze" />
       <recent name="$PROJECT_DIR$/Input/2017" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Input/2018" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,7 +360,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0">
+  <component name="RunManager" selected="Python tests.Unittests in test_day16_chronal_classification.py">
+    <configuration name="Day12SubterraneanSustainability" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/snake_squeeze/Y2018" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SnakeSqueeze" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/snake_squeeze/Y2018/Day12SubterraneanSustainability.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -378,7 +459,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day12_subterranean_sustainability.TestDay12SubterraneanSustainability.test_solve_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -389,10 +470,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SnakeSqueeze" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day9_marble_mania.TestDay9MarbleMania&quot;" />
+      <option name="_new_target" value="&quot;test_day12_subterranean_sustainability.TestDay12SubterraneanSustainability.test_solve_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_part_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_day18_settlers_of_the_north_pole.TestDay18SettlersOfTheNorthPole.test_preparation_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -403,10 +484,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SnakeSqueeze" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day9_marble_mania.TestDay9MarbleMania.test_part_2&quot;" />
+      <option name="_new_target" value="&quot;test_day18_settlers_of_the_north_pole.TestDay18SettlersOfTheNorthPole.test_preparation_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_day10_the_stars_align.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -417,10 +498,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SnakeSqueeze" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day10_the_stars_align.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_day12_subterranean_sustainability.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -431,10 +512,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SnakeSqueeze" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_day9_marble_mania.TestDay9MarbleMania.test_preparation_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day12_subterranean_sustainability.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in test_day9_marble_mania.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_day16_chronal_classification.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -445,23 +526,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SnakeSqueeze" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day9_marble_mania.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Y2018/test_day16_chronal_classification.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_day9_marble_mania.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_part_2" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_day10_the_stars_align.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_day12_subterranean_sustainability.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_day12_subterranean_sustainability.TestDay12SubterraneanSustainability.test_solve_2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Day12SubterraneanSustainability" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_day16_chronal_classification.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_part_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_day9_marble_mania.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_day16_chronal_classification.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_day12_subterranean_sustainability.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Day12SubterraneanSustainability" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_day12_subterranean_sustainability.TestDay12SubterraneanSustainability.test_solve_2" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_day10_the_stars_align.py" />
       </list>
     </recent_temporary>
   </component>
@@ -482,35 +563,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania - 2018.12.09 at 15h 14m 05s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 15h 30m 32s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania - 2018.12.09 at 15h 15m 22s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 15h 30m 33s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania - 2018.12.09 at 15h 15m 31s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 15h 32m 12s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania - 2018.12.09 at 15h 18m 32s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 15h 35m 57s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania - 2018.12.09 at 15h 18m 55s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 15h 42m 41s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania_test_part_2 - 2018.12.09 at 15h 12m 46s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_part_2" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 15h 50m 12s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania_test_part_2 - 2018.12.09 at 15h 13m 55s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_part_2" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 16h 20m 11s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania_test_preparation_0 - 2018.12.09 at 15h 16m 32s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 16h 22m 03s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania_test_preparation_0 - 2018.12.09 at 15h 18m 14s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 16h 24m 05s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_day9_marble_mania_TestDay9MarbleMania_test_preparation_0 - 2018.12.09 at 15h 20m 06s.xml">
-      <configuration name="Unittests for test_day9_marble_mania.TestDay9MarbleMania.test_preparation_0" configurationId="tests" />
+    <history-entry file="Unittests_in_test_day16_chronal_classification_py - 2018.12.21 at 16h 25m 50s.xml">
+      <configuration name="Unittests in test_day16_chronal_classification.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -523,25 +604,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1987" y="-2" width="3373" height="1442" extended-state="6" />
+    <frame x="1987" y="0" width="3373" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21494219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1396383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27061468" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1906907" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3388306" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.536036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -576,224 +657,100 @@
           <line>22</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day16_chronal_classification.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Y2018/test_day11_chronal_charge.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day12SubterraneanSustainability.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="450" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="known_instructions" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>self._last_marble</expression-string>
+        <expression-string>registers[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(self._marble_list)</expression-string>
+        <expression-string>self.op_code_executors[distinct_instruction]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._marble_list[pos]</expression-string>
+        <expression-string>capture.instruction[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._scores[player]</expression-string>
+        <expression-string>self.op_code_executors[j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(self._scores[player] if player in self._scores[player] else 0)</expression-string>
+        <expression-string>self._graph.items()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>marble + self._marble_list[pos]</expression-string>
+        <expression-string>self._graph.get(node)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(self._scores[player] if player in self._scores[player] else 0) + marble + self._marble_list[pos]</expression-string>
+        <expression-string>self._graph.get(node).items()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>int(re.search(&quot;(?&lt;=(worth\\s))[^\\s]*&quot;, game_data).group(0))</expression-string>
+        <expression-string>self._graph[source_node] = self._graph.get(source_node, list()).append(target_node)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>int(re.search(&quot;^[^\\s]*&quot;, game_data).group(0))</expression-string>
+        <expression-string>self._graph.get(source_node, list()).append(target_node)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day1ChronalCalibration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/2017/Day2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/pathlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17352">
-          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/Test.py" />
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/pathlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17586">
-          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/Test.py" />
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/pathlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17352">
-          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CF/Arcade/Core/Test.py" />
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/pathlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17352">
-          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Util/FileHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day2CorruptionChecksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2017/Day1InverseCaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AOC/2017/__init__.py" />
     <entry file="file://$PROJECT_DIR$/AOC/Util/__init__.py" />
     <entry file="file://$PROJECT_DIR$/AOC/y2017/__init__.py" />
@@ -811,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,9 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,9 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,38 +868,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py">
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day10_1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="81" lean-forward="true" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/unittest/case.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day5AlchemicalReduction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="605" column="0" lean-forward="false" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py">
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day4ReposeRecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day3NoMatterHowYouSliceIt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day2InventoryManagementSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day10_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="955">
+          <caret line="349" column="43" lean-forward="false" selection-start-line="349" selection-start-column="43" selection-end-line="349" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Y2018/test_day9_marble_mania.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day8MemoryManeuver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day18.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day18_settlers_of_the_north_pole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -966,10 +964,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day9MarbleMania.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="144">
+          <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="87" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day6ChronalCoordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day7TheSumofItsParts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day11_chronal_charge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day11ChronalCharge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day10_the_stars_align.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day10TheStarsAlign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day12SubterraneanSustainability.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day18SettlersOfTheNorthPole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day12_subterranean_sustainability.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day16_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="3126" column="20" lean-forward="true" selection-start-line="3126" selection-start-column="20" selection-end-line="3126" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/2018/Day16_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="604" column="0" lean-forward="false" selection-start-line="604" selection-start-column="0" selection-end-line="604" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Y2018/test_day16_chronal_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake_squeeze/Y2018/Day16ChronalClassification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
