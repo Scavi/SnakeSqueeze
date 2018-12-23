@@ -1,3 +1,6 @@
+from enum import Enum
+
+
 class OpCodeExecute:
     def __init__(self, op_code_method):
         self.op_code_method = op_code_method
