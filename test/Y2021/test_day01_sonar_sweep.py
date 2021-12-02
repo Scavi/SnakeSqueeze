@@ -2,7 +2,7 @@ from pathlib import Path
 from unittest import TestCase
 
 from snake_squeeze.Util.FileHelper import FileHelper
-from snake_squeeze.Y2021.SonarSweep import SonarSweep
+from snake_squeeze.Y2021.Day01SonarSweep import SonarSweep
 
 
 class TestSonarSweep(TestCase):
