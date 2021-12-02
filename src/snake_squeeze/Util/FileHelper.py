@@ -1,17 +1,19 @@
+from pathlib import Path
+from typing import List
+
+
 class FileHelper(object):
 
-    # Reads the file to the given file path and returns all lines in string array
     @staticmethod
-    def read_file(file_path):
-        result = []
+    def read_file(file_path) -> List[str]:
+        if not file_path.exists():
+            raise ValueError(f"Path '{file_path}' doesn't exist")
+        with open(str(file_path)) as fp:
+            return fp.read().splitlines()
 
-        if file_path.exists() is False:
-            return result
-
-        try:
-            with open(str(file_path)) as fp:
-                for line in iter(fp.readline, ''):
-                    result.append(line)
-        finally:
-            fp.close()
-        return result
+    @staticmethod
+    def read_file_as_int(file_path: Path) -> List[int]:
+        if not file_path.exists():
+            raise ValueError(f"Path '{file_path}' doesn't exist")
+        with open(str(file_path)) as fp:
+            return [int(i) for i in fp.readlines()]
