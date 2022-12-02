@@ -1,3 +1,10 @@
 venv/*
+out/
+log/
+
 *__pycache__*
-.idea/workspace.xml
+
+.idea/*
+*.iml
+
+.DS_Store
